@@ -85,32 +85,25 @@ public class Main {
         System.out.println("Задание 7");
         int friday = 4;
         for (; friday <= 31; friday += 7) {
-        System.out.println("Сегодня пятница, " + friday + "-e число. Необходимо подготовить отчет");}
+            System.out.println("Сегодня пятница, " + friday + "-e число. Необходимо подготовить отчет");
+        }
 
         // Задание 8
         System.out.println("Задание 8");
         int year8 = 2024;
         int firstYear = year8 - 200;
         int lustYear = year8 + 100;
-        while (lustYear >= firstYear)        {
-            firstYear = firstYear + 1 ;
-            if ( firstYear % 79 == 0 ) {
-            System.out.println(firstYear);}
+        while (lustYear >= firstYear) {
+            firstYear = firstYear + 1;
+            if (firstYear % 79 == 0) {
+                System.out.println(firstYear);
+            }
 
 
         }
 
 
-
-
-
-
-        }
-
-
-
-
-
+    }
 
 
 }

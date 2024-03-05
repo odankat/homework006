@@ -30,12 +30,14 @@ public class Main {
         System.out.println("Задание 3");
         int Y = 12_000_000;
         int year = 0;
-        int birthRate = (Y / 1000) * 17;
-        int mortality = (Y / 1000) * 8;
-        int populationGrowth = birthRate - mortality;
-        while (year <= 10) {
+
+        while (year < 10) {
+            int birthRate = (Y / 1000) * 17;
+            int mortality = (Y / 1000) * 8;
+            int populationGrowth = birthRate - mortality;
             year = year + 1;
             Y = Y + populationGrowth;
+
             System.out.println("Год " + year + ", численность населения составляет " + Y);
         }
         // Задание 4
